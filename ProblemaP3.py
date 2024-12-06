@@ -85,8 +85,8 @@ def mutate(individual):
 def run_ga_and_collect_data(lista_adyacencias):
     ga = pyeasyga.GeneticAlgorithm(
         list(lista_adyacencias.keys()),
-        population_size=50,
-        generations=120,
+        population_size=75,
+        generations=110,
         crossover_probability=0.8,
         mutation_probability=0.2,
         elitism=True,
